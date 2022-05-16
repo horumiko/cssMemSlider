@@ -9,39 +9,31 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <h1 class="h1">CSSMemSlider-Task</h1>
+    <div class="wrapper">   
         <main class="main">
             <div class="meme-slider">
-                <input type="radio" id="sl-1" value="sl-1" checked/>
-                <input type="radio" id="sl-2" value="sl-2"/>
-                <input type="radio" id="sl-3" value="sl-3"/>
-                <input type="radio" id="sl-4" value="sl-4"/>
 
-                <div class="meme-slider-container">
-                    <div class="meme-boxes">
-                        <div class="meme-box sl1">
-                            <img class='meme-pic' src="assets/img/gif1.gif" alt="Meme 1"/>
-                        </div>
-                        <div class="meme-box sl2">
-                            <img class='meme-pic' src="assets/img/gif2.gif" alt="Meme 2"/>
-                        </div>
-                        <div class="meme-box sl3">
-                            <img class='meme-pic' src="assets/img/gif3.gif" alt="Meme 3"/>
-                        </div>
-                        <div class="meme-box sl4">
-                            <img class='meme-pic' src="assets/img/gif4.gif" alt="Meme 4"/>
-                        </div>
-                    </div>      
+                <input type="radio" id="slide-1" name="slides" value="slide-1" checked/>
+                <input type="radio" id="slide-2" name="slides" value="slide-2"/>
+                <input type="radio" id="slide-3" name="slides" value="slide-3"/>
+                <input type="radio" id="slide-4" name="slides" value="slide-4"/>
+                
+                <div class="memes">
+                    <div class="memes-boxes">
+                        <div class="m-box slide1"><img class='meme-pic' src="assets/img/gif1.gif" alt="slide1"/></div>
+                        <div class="m-box slide2"><img class='meme-pic' src="assets/img/gif2.gif" alt="slide2"/></div>
+                        <div class="m-box slide3"><img class='meme-pic' src="assets/img/gif3.gif" alt="slide3"/></div>
+                        <div class="m-box slide4"><img class='meme-pic' src="assets/img/gif4.gif" alt="slide4"/></div>
+                    </div>
                 </div>
-            </div>
-            <div class="meme-slider-controls">
-                <div class="meme-text"></div>
-                <div class="buttons">
-                    <label for="sl-1" class="sl-1 button"></label>
-                    <label for="sl-2" class="sl-2 button"></label>
-                    <label for="sl-3" class="sl-3 button"></label>
-                    <label for="sl-4" class="sl-4 button"></label>
+                <div class="controls">
+                    <div class="text"></div>
+                    <div class="buttons">
+                        <label for="slide-1" class="slide-1 btn"></label>
+                        <label for="slide-2" class="slide-2 btn"></label>
+                        <label for="slide-3" class="slide-3 btn"></label>
+                        <label for="slide-4" class="slide-4 btn"></label>
+                    </div>
                 </div>
             </div>
         </main>
