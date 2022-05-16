@@ -7,7 +7,42 @@
     <link rel="stylesheet" href="./styles/style.css">
     <title>CSS Mem Slider</title>
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <h1 class="h1">CodeJam CSSMemSlider-Task</h1>
+        <main class="main">
+            <div class="meme-slider">
+                <input type="radio" id="sl-1" value="sl-1" checked/>
+                <input type="radio" id="sl-2" value="sl-2"/>
+                <input type="radio" id="sl-3" value="sl-3"/>
+                <input type="radio" id="sl-4" value="sl-4"/>
+
+                <div class="meme-slider-container">
+                    <div class="meme-box sl1">
+                        <img src="assets/img/gif1.gif" alt="Meme 1"/>
+                    </div>
+                    <div class="meme-box sl2">
+                        <img src="assets/img/gif2.gif" alt="Meme 2"/>
+                    </div>
+                    <div class="meme-box sl3">
+                        <img src="assets/img/gif3.gif" alt="Meme 3"/>
+                    </div>
+                    <div class="meme-box sl4">
+                        <img src="assets/img/gif4.gif" alt="Meme 4"/>
+                    </div>
+                </div>
+            </div>
+            <div class="meme-slider-controls">
+                <div class="meme-text"></div>
+                <div class="buttons">
+                    <label for="sl-1" class="sl-1 button"></label>
+                    <label for="sl-2" class="sl-2 button"></label>
+                    <label for="sl-3" class="sl-3 button"></label>
+                    <label for="sl-4" class="sl-4 button"></label>
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
